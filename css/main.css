@@ -1,0 +1,133 @@
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-600 - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/plus-jakarta-sans-v8-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  box-sizing: border-box;
+}
+*::before {
+  box-sizing: border-box;
+}
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1176px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", "sans-serif", sans-serif;
+  font-size: 700;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+.site-header {
+  border-bottom: 1px solid #eeeef4;
+  margin-bottom: 91px;
+}
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.site-header__start {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.site-logo {
+  margin-right: 50px;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.nav-link {
+  color: #101010;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.nav-link:hover {
+  color: #1aab7b;
+}
+.nav-link:active {
+  opacity: 0.6;
+  color: #1aab7b;
+}
+.btn-telnumber {
+  background-color: #101010;
+  border-radius: 6px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+.btn-telnumber:hover {
+  background-color: #fff;
+  border: 1px solid #1aab7b;
+  color: #1aab7b;
+}
+.btn-telnumber:active {
+  opacity: 0.6;
+  background-color: #101010;
+  color: #fff;
+  border: none;
+}
